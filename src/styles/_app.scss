@@ -1,0 +1,60 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4,
+h5, h6, p, blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, img, figure, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, ol, ul,
+li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td {
+  background: transparent;
+  font-family: "Inter", sans-serif;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+  list-style: none;
+  vertical-align: baseline;
+  outline: none;
+}
+
+:root {
+  --white: #fff;
+  --background: #f2f3f5;
+  --gray-line: #dcdde0;
+  --text: #666666;
+  --text-highlight: #b3b9ff;
+  --title: #2e384d;
+  --red: #e83f5b;
+  --green: #4cd62b;
+  --blue: #5965e0;
+  --blue-dark: #4953b8;
+  --blue-twitter: #2aa9e0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, input, button, textarea {
+  font: 400 1rem "Inter", sans-serif;
+}
+
+@media(max-width: 768px) {
+  body {
+    font-size: 87.5%;
+  }
+}
+
+@media(max-width: 996px) {
+  body {
+    font-size: 93.75%;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text)
+}

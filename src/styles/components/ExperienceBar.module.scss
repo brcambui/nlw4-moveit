@@ -1,0 +1,27 @@
+.experienceBar {
+  display: flex;
+  align-items: center;
+
+  .progress {
+    flex: 1;
+    margin: 0 1.5rem;
+    height: 4px;
+
+    background-color: var(--gray-line);
+    border-radius: 4px;
+    position: relative;
+
+    .progressInner {
+      height: 4px;
+      background-color: var(--gray-line);
+      border-radius: 4px;
+      background-color: var(--green);
+    }
+
+    .currentExperience {
+      position: absolute;
+      top: 12px;
+      transform: translateX(-50%);
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.profile {
+  display: flex;
+  align-items: center;
+
+  & > img {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 100%;
+  }
+
+  & > div {
+    margin-left: 1.5rem;
+
+    & > strong {
+      color: var(--title);
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    & > p {
+      margin-top: 0.5rem;
+
+      & > img {
+        margin-right: 0.5rem;
+        height: 1rem;
+      }
+    }
+  }
+}
